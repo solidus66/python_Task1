@@ -16,7 +16,6 @@ def remove_duplicates(initial_list: list):
     for element in initial_list:
         if element not in new_list:
             new_list.append(element)
-
     return [new_list]
 
 
